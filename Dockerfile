@@ -1,7 +1,5 @@
 FROM fedora:34
 
-LABEL author="Hila Safi <hila.safi@siemens.com>"
-
 RUN dnf install -y python3 python3-devel ImageMagick unzip gcc git
 
 RUN adduser arcs2022 && mkdir -p /usr/local/arcs2022 && chown -c arcs2022 /usr/local/arcs2022
