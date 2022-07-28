@@ -5,7 +5,7 @@
 ### Clone repository
 
 ```
-git clone https://github.com/lfd/arcs2022.git
+git clone https://github.com/hila1010/arcs2022.git
 ```
 
 
